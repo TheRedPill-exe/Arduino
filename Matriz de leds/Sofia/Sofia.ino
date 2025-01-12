@@ -3,7 +3,7 @@
 LedControl lc = LedControl(11, 13, 10, 1);
 
 void setup() {
-    lc.shutdown(0, true);    // Enciende el módulo
+    lc.shutdown(0, false);    // Enciende el módulo
     lc.setIntensity(0, 8);    // Ajusta el brillo (0-15)
     lc.clearDisplay(0);       // Limpia la pantalla inicial    
 }
